@@ -12,6 +12,8 @@ Overall: Cost is at quantity=1, which is rarely the best deal.
 
 Overall: You don't have to use Digikey, I'm just using them as an example. Feel free to source equivalent parts.
 
+Resistors: if you're going to buy one each of these, why not just buy a kit? 
+
 ###### BOM
 
 |Refdes|Qty|Digikey Part Number|Name|Unit Cost|
@@ -26,6 +28,15 @@ Overall: You don't have to use Digikey, I'm just using them as an example. Feel 
 |C4,C6,C12|3|445-8351-ND|CAP CER 10UF 25V X7R RADIAL|$0.63|
 |C9,C11,C13|3|445-8441-ND|CAP CER 100UF 6.3V X5R RADIAL|$0.95|
 |D1,D2|2|1N4001-TPMSCT-ND|DIODE GEN PURP 50V 1A DO41|$0.10|
+|R7|1|10.0XBK-ND|RES 10 OHM 1/4W 1% AXIAL|$0.10|
+|R9,R17|2|CF14JT33R0CT-ND|RES 33 OHM 1/4W 5% CARBON FILM|$0.10|
+|R13|1|CF14JT1K00CT-ND|RES 1K OHM 1/4W 5% CARBON FILM|$0.10|
+|R12|1|CF14JT2K20CT-ND|RES 2.2K OHM 1/4W 5% CARBON FILM|$0.10|
+|R4|1|CF14JT3K30CT-ND|RES 3.3K OHM 1/4W 5% CARBON FILM|$0.10|
+|R11|1|CF14JT4K70CT-ND|RES 4.7K OHM 1/4W 5% CARBON FILM|$0.10|
+|R8|1|CF14JT10K0CT-ND|RES 10K OHM 1/4W 5% CARBON FILM|$0.10|
+|R2,R3|2|CF14JT100KCT-ND|RES 100K OHM 1/4W 5% CARBON FILM|$0.10|
+|R1,R5|2|CF14JT1M00CT-ND|RES 1M OHM 1/4W 5% CARBON FILM|$0.10|
 ||1|ON HAND|On/Off switch on hand|
 ||1|HOLES|Solder holes for 9V battery connector|
 ||1|MC7809CTGOS-ND|IC REG LDO 9V 1A TO220AB|
