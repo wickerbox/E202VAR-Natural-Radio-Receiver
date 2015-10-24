@@ -12,9 +12,19 @@ Overall: Cost is at quantity=1, which is rarely the best deal.
 
 Overall: You don't have to use Digikey, I'm just using them as an example. Feel free to source equivalent parts.
 
+Headphone stereo jack: supports TRRS plugs, wired as suggested here: http://www.circuitbasics.com/how-to-hack-a-headphone-jack/
+
 Resistors: if you're going to buy one each of these, why not just buy a kit? 
 
-###### BOM
+Inductors: Changed 3uH to 3.3uH because most of the affordable ones were 20% and 20% of 3.3uH is 0.66uH. Let's just see how it goes. If there's a problem, this is a place to look. 
+
+10K Pot: this is the volume knob and I had a handful of these blue knobs from Adafruit that fit the switch.
+
+BJT: BC237 was replaced by the BC547B.
+
+Options: I've labeled some options for the connectors. When you see PART(A) and PART(B), you'll have to choose which set of parts you want and buy all listed under PART(A) or PART(B). Don't buy both. 
+
+###### Board BOM
 
 |Refdes|Qty|Digikey Part Number|Name|Unit Cost|
 |------|---|-------------------|----|---------|
@@ -37,69 +47,29 @@ Resistors: if you're going to buy one each of these, why not just buy a kit?
 |R8|1|CF14JT10K0CT-ND|RES 10K OHM 1/4W 5% CARBON FILM|$0.10|
 |R2,R3|2|CF14JT100KCT-ND|RES 100K OHM 1/4W 5% CARBON FILM|$0.10|
 |R1,R5|2|CF14JT1M00CT-ND|RES 1M OHM 1/4W 5% CARBON FILM|$0.10|
-||1|ON HAND|On/Off switch on hand|
-||1|HOLES|Solder holes for 9V battery connector|
-||1|MC7809CTGOS-ND|IC REG LDO 9V 1A TO220AB|
-||1|296-6548-5-ND|TLE2426 2V 20mA VREG 8DIP|
-||2|BC547BTACT-ND|TRANS NPN 45V 0.1A TO-92|
-||1|296-7203-5-ND|IC OPAMP JFET 3MHZ 8DIP|
-||1|NJM386D-ND|IC AUDIO PWR AMP LOW VOLT 8-DIP|
-||1|CP-3502MJ-ND|CONN AUDIO JACK 3.5MM MONO|
-||1|ON HAND|20mA RED LED 2V TH|
-||1|HOLES|JUMPER SWITCH FOR HIGH PASS FILTER|
-||1|289-1223-ND|LAMP INCAND T1.25 WIRE TERM 14V|
-
-BC237B
-|1|CP1-3535NG-ND|CONN JACK STEREO R/A 5PIN 3.5MM|
-
-Surface Mount Version
-
-|Qty|Digikey Part Number|Name|
-|---|-------------------|----|
-|2|1N4001-TPMSCT-ND|1N4001 Diode|
-|3|WM5515-ND|CONN BNC JACK R/A 50 OHM PCB TH|
-|1|ON HAND|On/Off switch on hand|
-|1|HOLES|Solder holes for 9V battery connector|
-|1|MC7809CD2TGOS-ND|IC REG LDO 9V 1A D2PAK|
-|1|296-1345-1-ND|TLE2426 2V 20mA VREG 8SOIC|
-|2|BC847BLT1GOSCT-ND|TRANS NPN 45V 0.1A SOT23|
-|1|296-15001-1-ND|IC OPAMP JFET 3MHZ 8SOIC|
-|1|LM386MX-1/NOPBCT-ND|IC AMP AUDIO PWR .325W AB 8SOIC|
-|1|CP1-3535NG-ND|CONN JACK STEREO R/A 5PIN 3.5MM|
-|1|HOLES|JUMPER SWITCH FOR HIGH PASS FILTER|
-
-Neon - transorb?
-
-P1  10k Pot
-
-R13 1K
-R5  10M
-R1  10M
-R1  100k
-R4  3.3k
-R3  100k
-R8  10k
-R11 4.7n
-R7  10
-R9  33
-R12 2.2k
-R17 33  
-
-L1  3uH
-
-C3  8.2p
-C5  150p
-C16 4.7n
-C7  4.7n
-C10 10n
-C14 22n
-C15 22n
-    33nF 
-C2  100n
-C6  10u
-C12 10u
-C4  10u
-C11 100uF
-C9  100u
-C13 100u
-
+|J1(A)|0|HOLES|Solder holes for 9V battery connector|$0|
+|J1(A)|1|1528-1117-ND|BATTERY CLIP 9V 5.5MM/2.1MM PLUG|$3.00|
+|J1(A)|1|None|Standard 9V Battery|Varies|
+|J1(B)|1|CP-202BH-ND|CONN PWR JACK 2.5X5.5MM HIGH CUR|$1.16|
+|J1(B)|1|1528-1117-ND|BATTERY CLIP 9V 5.5MM/2.1MM PLUG|$3.00|
+|J1(B)|1|None|Standard 9V Battery|Varies|
+|J1(C)|1|CP-202BH-ND|CONN PWR JACK 2.5X5.5MM HIGH CUR|$1.16|
+|J1(C)|1|1528-1116-ND|BATT HOLDER 9V SWITCH 5.5MM PLUG|$3.95|
+|J1(C)|1|None|Standard 9V Battery|Varies|
+|J2(A)|0|None|0.1" pitch holes to accommodate soldering 24AWG wires|-|
+|J2(B)|1|RA11131100-ND|SWITCH ROCKER SPST 10A 125V|$0.52|
+|J2(B),P10(B)|1|Varies|24AWG Wire|Varies|
+|J3|1|CP1-3523N-ND|CONN JACK STEREO R/A 3PIN 3.5MM|$0.97|
+|U1|1|MC7809CTGOS-ND|IC REG LDO 9V 1A TO220AB|$0.45|
+|U2|1|296-6548-5-ND|IC VREF GND REF ADJ 8DIP|$1.93|
+|U3|1|NJM386D-ND|IC AUDIO PWR AMP LOW VOLT 8-DIP|$0.91|
+|D3|1|C503B-BCS-CV0Z0461-ND|LED BLUE CLEAR 3.2V 5MM ROUND T/H|$0.21|
+|JUMP1|1|3M9580-ND|SHUNT JUMPER .1" BLACK GOLD|$0.10|
+|L1|1|78F3R3J-RC-ND|FIXED IND 3.3UH 575MA 300 MOHM|$0.22|
+|P10(A)|0|None|0.1" pitch holes to accommodate soldering 24AWG wires|-|
+|P10(B)|1|987-1301-ND|POT 10K OHM 1/5W PLASTIC LINEAR|$0.84|
+|P10(B)|1|Adafruit 2048|Potentiometer Knob - Soft Touch T18 - Blue|$.50|
+|LAMP(A)|1|289-1223-ND|LAMP INCAND T1.25 WIRE TERM 14V|
+|LAMP(B)|1|RS Components|4 mm Clear Neon Indicator Lamp, Wire Terminal, 100/120/220/250 V 0.25 mA|-|$0.72|
+|OP1|1|296-7203-5-ND|IC OPAMP JFET 3MHZ 8DIP|$0.52|
+|Q1,Q2|2|BC547BTACT-ND|TRANS NPN 45V 0.1A TO-92|
