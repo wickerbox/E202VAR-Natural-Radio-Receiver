@@ -2,27 +2,23 @@
 
 #####Notes
 
-Overall: the whole design should be through hole soldering by a hobbyist. No fancy soldering equipment required.   
+**Overall** The whole design is intended to be made of through-hole parts and solderable by a hobbyist without any special equipment. The unit cost listed is at Qty=1, which is never the best deal. You don't have to use Digikey, I'm just using them as an example. Feel free to source equivalent parts. 
 
-BNC connectors: 50 ohm impedance, right angle. WM5524-ND by far the cheapest. save $3 on total board cost over WM5515-ND. Suggest WM5515-ND as alternate. 
+**Options** I've provided a couple of options for some of the connectors. When you see an option (A) and (B) for a particular PART, then you'll have to choose which option (A or B) you prefer. You'll buy all listed under PART(A) or under PART(B). Don't buy both. 
 
-Capacitors: prefer class 1 capacitors that are very stable in response to environmental conditions. In circumstances where a 5% C0G part was $0.32 each and a 1% C0G was $1.75, I went with the 5% part.  
+**BNC connectors** are 50 ohm impedance and right angle. WM5524-ND is by far the cheapest and saves $3 on total board cost over WM5515-ND. I suggest WM5515-ND as alternate. 
 
-Overall: Cost is at quantity=1, which is rarely the best deal.
+**Capacitors** I preferred class 1 capacitors that are very stable in response to environmental conditions. In circumstances where a 5% C0G part was $0.32 each and a 1% C0G was $1.75, I went with the 5% part.  
 
-Overall: You don't have to use Digikey, I'm just using them as an example. Feel free to source equivalent parts.
+**Headphone Jack** I provided a 3-pin headphone 3.5MM jack that's a lot cheaper than the other one I was provided/shown. It's wired as suggested here: http://www.circuitbasics.com/how-to-hack-a-headphone-jack/
 
-Headphone stereo jack: supports TRRS plugs, wired as suggested here: http://www.circuitbasics.com/how-to-hack-a-headphone-jack/
+**Resistors** If you're going to buy one each of these, why not just buy a kit? I specced standard 1/4W carbon film resistors so I highly, highly do recommend a kit. Try this one: <a href="http://www.digikey.com/product-detail/en/RS125/RS125-ND/">RS125-ND</a>
 
-Resistors: if you're going to buy one each of these, why not just buy a kit? 
+**Inductors** Changed 3uH to 3.3uH because most of the affordable ones had tolerance of 20%. 20% of 3.3uH is 0.66uH, so I think it's probably fine. Let's just see how it goes. If there's a problem, this is a place to look. 
 
-Inductors: Changed 3uH to 3.3uH because most of the affordable ones were 20% and 20% of 3.3uH is 0.66uH. Let's just see how it goes. If there's a problem, this is a place to look. 
+**10K Pot** This is the volume knob and I had a handful of these blue knobs from Adafruit that fit the switch. I've linked them below.
 
-10K Pot: this is the volume knob and I had a handful of these blue knobs from Adafruit that fit the switch.
-
-BJT: BC237 was replaced by the BC547B.
-
-Options: I've labeled some options for the connectors. When you see PART(A) and PART(B), you'll have to choose which set of parts you want and buy all listed under PART(A) or PART(B). Don't buy both. 
+**BJT** BC237 is obsolete but it was replaced by the BC547B. Same manufacturer (Fairchild) and package (TO-92).
 
 ###### Board BOM
 
@@ -38,6 +34,7 @@ Options: I've labeled some options for the connectors. When you see PART(A) and 
 |C4,C6,C12|3|445-8351-ND|CAP CER 10UF 25V X7R RADIAL|$0.63|
 |C9,C11,C13|3|445-8441-ND|CAP CER 100UF 6.3V X5R RADIAL|$0.95|
 |D1,D2|2|1N4001-TPMSCT-ND|DIODE GEN PURP 50V 1A DO41|$0.10|
+|R(KIT)|1|RS125-ND|Resistor Kit|$14.95|
 |R7|1|10.0XBK-ND|RES 10 OHM 1/4W 1% AXIAL|$0.10|
 |R9,R17|2|CF14JT33R0CT-ND|RES 33 OHM 1/4W 5% CARBON FILM|$0.10|
 |R13|1|CF14JT1K00CT-ND|RES 1K OHM 1/4W 5% CARBON FILM|$0.10|
