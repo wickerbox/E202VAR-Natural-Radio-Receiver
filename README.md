@@ -7,13 +7,15 @@ His plans are <a href="http://www.vlf.it/romero2/explorer-e202.html">described h
 
 He gave me permission to work from his schematic to design a new layout and make my own units. I am releasing all of my documents and process under the CERN Open Hardware License v1.2.
 
-<a href="http://www.vlf.it/romero2/E202_V1.1.png">Here's a full-size schematic</a>.
+<a href="http://www.vlf.it/romero2/E202_V1.1.png">Here's the original E202 full-size schematic</a>.
+
+<a href="https://raw.githubusercontent.com/wicker/e202-in-eagle/master/natural-radio-vlf-receiver-v1.png">Here's the E202VAR full-sized schematic</a>
 
 #### Current Project Status
 
 - [x] Get permission and verify that the CERN license is OK.
 - [x] Initially verify all the components and build the BOM.
-- [x] Create the schematic.
+- [x] Create the schematic. 
 - [ ] Double check the BOM against schematic and available parts.
 - [ ] Create an Eagle library with all symbols + footprints.
 - [ ] Release the BOM and library.
