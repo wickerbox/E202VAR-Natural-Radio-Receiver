@@ -2,10 +2,10 @@
 
 Through-hole version
 
-|Qty|Digikey Part Number|Name|
-|---|-------------------|----|
-|2|1N4001-TPMSCT-ND|1N4001 Diode|
-|3|WM5515-ND|CONN BNC JACK R/A 50 OHM PCB TH|
+|Refdes|Qty|Digikey Part Number|Name|Cost|
+|------|---|-------------------|----|----|
+|BNC1-3|3|WM5524-ND|CONN BNC JACK R/A 50 OHM PCB TH|$1.48|
+|D1,D2|2|1N4001-TPMSCT-ND|1N4001 Diode|
 |1|ON HAND|On/Off switch on hand|
 |1|HOLES|Solder holes for 9V battery connector|
 |1|MC7809CTGOS-ND|IC REG LDO 9V 1A TO220AB|
