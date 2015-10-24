@@ -20,7 +20,7 @@
 
 **BJT** BC237 is obsolete but it was replaced by the BC547B. Same manufacturer (Fairchild) and package (TO-92).
 
-#####Board BOM
+####Board BOM
 
 |Refdes|Qty|Digikey Part Number|Name|Unit Cost|
 |------|---|-------------------|----|---------|
