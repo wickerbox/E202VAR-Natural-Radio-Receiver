@@ -1,6 +1,6 @@
 ####Bill of Materials
 
-#####Notes
+####Notes
 
 **Overall** The whole design is intended to be made of through-hole parts and solderable by a hobbyist without any special equipment. The unit cost listed is at Qty=1, which is never the best deal. You don't have to use Digikey, I'm just using them as an example. Feel free to source equivalent parts. 
 
@@ -20,7 +20,7 @@
 
 **BJT** BC237 is obsolete but it was replaced by the BC547B. Same manufacturer (Fairchild) and package (TO-92).
 
-###### Board BOM
+#####Board BOM
 
 |Refdes|Qty|Digikey Part Number|Name|Unit Cost|
 |------|---|-------------------|----|---------|
