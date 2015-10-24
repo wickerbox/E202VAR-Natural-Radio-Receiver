@@ -1,15 +1,21 @@
 ####Bill of Materials
 
-NOTES
+#####Notes
 
-Overall: the whole design should be through hole soldering by a hobbyist. No fancy soldering equipment required. 
+Overall: the whole design should be through hole soldering by a hobbyist. No fancy soldering equipment required.   
+
 BNC connectors: 50 ohm impedance, right angle. WM5524-ND by far the cheapest. save $3 on total board cost over WM5515-ND. Suggest WM5515-ND as alternate. 
+
 Capacitors: prefer class 1 capacitors that are very stable in response to environmental conditions. In circumstances where a 5% C0G part was $0.32 each and a 1% C0G was $1.75, I went with the 5% part.  
+
 Overall: Cost is at quantity=1, which is rarely the best deal.
+
 Overall: You don't have to use Digikey, I'm just using them as an example. Feel free to source equivalent parts.
 
-|Refdes|Qty|Digikey Part Number|Name|Cost|
-|------|---|-------------------|----|----|
+###### BOM
+
+|Refdes|Qty|Digikey Part Number|Name|Unit Cost|
+|------|---|-------------------|----|---------|
 |BNC1-3|3|WM5524-ND|CONN BNC JACK R/A 50 OHM PCB TH|$1.48|
 |C3|1|399-8923-ND|CAP CER 8.2PF 50V NP0 RADIAL|$0.51|
 |C5,C8,C15|3|BC1015CT-ND|CAP CER 150PF 50V NP0 RADIAL|$0.25|
