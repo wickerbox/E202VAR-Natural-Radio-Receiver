@@ -16,7 +16,7 @@ He gave me permission to work from his schematic to design a new layout and make
 - [x] Get permission and verify that the CERN license is OK.
 - [x] Initially verify all the components and build the BOM.
 - [x] Create the schematic. 
-- [ ] Double check the BOM against schematic and available parts.
+- [X] Double check the BOM against schematic and available parts.
 - [ ] Create an Eagle library with all symbols + footprints.
 - [ ] Release the BOM and library.
 - [ ] Figure out what to do about the mechanical assembly + case.
@@ -43,7 +43,7 @@ Total cost of parts is about $25.
 |C9,C11,C13|3|445-8441-ND|CAP CER 100UF 6.3V X5R RADIAL|$0.95|
 |D1,D2|2|1N4001-TPMSCT-ND|DIODE GEN PURP 50V 1A DO41|$0.10|
 |R(KIT)|1|RS125-ND|Get this resistor kit instead|$14.95|
-|R7|1|10.0XBK-ND|RES 10 OHM 1/4W 1% AXIAL|$0.10|
+|R7|1|CF14JT10R0CT-ND|RES 10 OHM 1/4W 5% CARBON FILM|$0.10|
 |R9,R17|2|CF14JT33R0CT-ND|RES 33 OHM 1/4W 5% CARBON FILM|$0.10|
 |R13|1|CF14JT1K00CT-ND|RES 1K OHM 1/4W 5% CARBON FILM|$0.10|
 |R12|1|CF14JT2K20CT-ND|RES 2.2K OHM 1/4W 5% CARBON FILM|$0.10|
