@@ -30,6 +30,8 @@ He gave me permission to work from his schematic to design a new layout and make
 
 Total cost of parts is about $25.
 
+|Refdes|Qty|Digikey Part Number|Name|Unit Cost|
+|------|---|-------------------|----|---------|
 |BNC1-3|3|WM5524-ND|CONN BNC JACK R/A 50 OHM PCB TH|$1.48|
 |C3|1|399-8923-ND|CAP CER 8.2PF 50V NP0 RADIAL|$0.51|
 |C5,C8,C15|3|BC1015CT-ND|CAP CER 150PF 50V NP0 RADIAL|$0.25|
