@@ -1127,6 +1127,7 @@ one and experiment.</text>
 <text x="78.74" y="58.42" size="1.778" layer="97">VLF means Very Low Frequency
 Radio waves less than  22kHz
 Sometimes called Natural Radio</text>
+<frame x1="-12.7" y1="2.54" x2="335.28" y2="180.34" columns="8" rows="5" layer="94"/>
 </plain>
 <instances>
 <instance part="D1" gate="G$1" x="48.26" y="165.1"/>
