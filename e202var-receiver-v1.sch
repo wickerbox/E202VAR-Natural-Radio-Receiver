@@ -227,6 +227,10 @@ http://www.wickerbox.net</text>
 <pad name="2" x="1.4478" y="0" drill="1.016" diameter="1.8796" rot="R90"/>
 <text x="-2.6162" y="1.8288" size="1.27" layer="25" ratio="10">&gt;NAME</text>
 <text x="-2.54" y="-3.175" size="1.27" layer="27">&gt;VALUE</text>
+<wire x1="-2.54" y1="1.27" x2="2.54" y2="1.27" width="0.127" layer="21"/>
+<wire x1="2.54" y1="1.27" x2="2.54" y2="-1.27" width="0.127" layer="21"/>
+<wire x1="2.54" y1="-1.27" x2="-2.54" y2="-1.27" width="0.127" layer="21"/>
+<wire x1="-2.54" y1="-1.27" x2="-2.54" y2="1.27" width="0.127" layer="21"/>
 </package>
 <package name="JACK-POWER">
 <description>POWER JACK Barrel connector 2.5mmx5.5mm high</description>
@@ -411,15 +415,15 @@ http://www.wickerbox.net</text>
 <pad name="1" x="1.33" y="-0.06" drill="0.7" diameter="1.651" shape="square" stop="no"/>
 <pad name="2" x="-1.21" y="-0.06" drill="0.7" diameter="1.651" stop="no"/>
 <text x="-2.099" y="-4.886" size="1.27" layer="25" ratio="15">&gt;Name</text>
-<circle x="-1.21" y="-0.06" radius="0.3556" width="0" layer="29"/>
-<circle x="-1.21" y="-0.06" radius="0.9652" width="0" layer="30"/>
-<circle x="1.33" y="-0.06" radius="0.3556" width="0" layer="29"/>
+<circle x="-1.21" y="-0.06" radius="0.9652" width="0" layer="29"/>
+<rectangle x1="0.3648" y1="-1.0252" x2="2.2952" y2="0.9052" layer="29"/>
 <rectangle x1="0.3648" y1="-1.0252" x2="2.2952" y2="0.9052" layer="30"/>
+<circle x="-1.21" y="-0.06" radius="0.9652" width="0" layer="30"/>
 </package>
 <package name="CAP-RADIAL-5MM-NONPOL">
 <circle x="0" y="0" radius="2.5" width="0.2032" layer="21"/>
-<pad name="1" x="2.6" y="-0.06" drill="0.7" diameter="1.651" shape="square" stop="no"/>
-<pad name="2" x="-2.5" y="0" drill="0.7" diameter="1.651" stop="no"/>
+<pad name="1" x="2.6" y="-0.06" drill="0.7" diameter="1.651" shape="square"/>
+<pad name="2" x="-2.5" y="0" drill="0.7" diameter="1.651"/>
 <text x="-2.099" y="-4.886" size="1.27" layer="25" ratio="15">&gt;Name</text>
 <circle x="-2.5" y="0" radius="0.3556" width="0" layer="29"/>
 <circle x="-2.5" y="0" radius="0.9652" width="0" layer="30"/>
@@ -1314,6 +1318,7 @@ All 8 pins broken out.</description>
 <part name="H2" library="holes" deviceset="MOUNT-PAD-ROUND" device="3.2"/>
 <part name="H3" library="holes" deviceset="MOUNT-PAD-ROUND" device="3.2"/>
 <part name="U$2" library="e202var-receiver" deviceset="SYM-GND" device=""/>
+<part name="H4" library="holes" deviceset="MOUNT-PAD-ROUND" device="3.2"/>
 </parts>
 <sheets>
 <sheet>
@@ -1428,6 +1433,7 @@ Sometimes called Natural Radio</text>
 <instance part="H2" gate="G$1" x="7.62" y="33.02"/>
 <instance part="H3" gate="G$1" x="7.62" y="25.4"/>
 <instance part="U$2" gate="G$1" x="2.54" y="15.24"/>
+<instance part="H4" gate="G$1" x="7.62" y="17.78"/>
 </instances>
 <busses>
 </busses>
@@ -1654,11 +1660,15 @@ Sometimes called Natural Radio</text>
 <wire x1="2.54" y1="33.02" x2="5.08" y2="33.02" width="0.1524" layer="91"/>
 <junction x="2.54" y="33.02"/>
 <wire x1="2.54" y1="33.02" x2="2.54" y2="25.4" width="0.1524" layer="91"/>
-<wire x1="2.54" y1="25.4" x2="2.54" y2="15.24" width="0.1524" layer="91"/>
+<wire x1="2.54" y1="25.4" x2="2.54" y2="17.78" width="0.1524" layer="91"/>
 <pinref part="H3" gate="G$1" pin="MOUNT"/>
+<wire x1="2.54" y1="17.78" x2="2.54" y2="15.24" width="0.1524" layer="91"/>
 <wire x1="5.08" y1="25.4" x2="2.54" y2="25.4" width="0.1524" layer="91"/>
 <junction x="2.54" y="25.4"/>
 <pinref part="U$2" gate="G$1" pin="GND"/>
+<wire x1="5.08" y1="17.78" x2="2.54" y2="17.78" width="0.1524" layer="91"/>
+<junction x="2.54" y="17.78"/>
+<pinref part="H4" gate="G$1" pin="MOUNT"/>
 </segment>
 </net>
 <net name="Q1OUT" class="0">
