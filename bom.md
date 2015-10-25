@@ -66,7 +66,7 @@
 |P10(A)|0|None|0.1" pitch holes to accommodate soldering 24AWG wires|-|
 |P10(B)|1|987-1301-ND|POT 10K OHM 1/5W PLASTIC LINEAR|$0.84|
 |P10(B)|1|Adafruit 2048|Potentiometer Knob - Soft Touch T18 - Blue|$.50|
-|LAMP(A)|1|289-1223-ND|LAMP INCAND T1.25 WIRE TERM 14V|
+|LAMP(A)|1|A9A-ND|LED NEON WIRE TERMINAL|$0.63|
 |LAMP(B)|1|RS Components|4 mm Clear Neon Indicator Lamp, Wire Terminal, 100/120/220/250 V 0.25 mA|-|$0.72|
 |OP1|1|296-7203-5-ND|IC OPAMP JFET 3MHZ 8DIP|$0.52|
-|Q1,Q2|2|BC547BTACT-ND|TRANS NPN 45V 0.1A TO-92|
+|Q1,Q2|2|BC547BTACT-ND|TRANS NPN 45V 0.1A TO-92|$0.20|
