@@ -9,20 +9,28 @@ He gave me permission to work from his schematic to design a new layout and make
 
 <a href="http://www.vlf.it/romero2/E202_V1.1.png">Here's the original E202 full-size schematic</a>.
 
-#### Status
+### Version 1.0
 
-Version 1.0 had some issues, but I was able to 
+Version 1.0 had some issues, but I was able to solder all the components, place the board in the metal box, attach with clips to ground the box, apply a 9V battery for power, turn on the blue LED, and verify the basics of the operation. 
+
+The volume knob, filter and power switches, and headphone jack all work correctly. I could hear the received sound in my headphones and it changed pitch and volume as I adjusted ground connections, turned the volume knob, and moved my hand around in the air over the box.
+
+![](v1.0/vlf_overview.png)
+![](v1.0/vlf_topview.png)
+![](v1.0/vlf_closeup.png)
+
+### Version 1.1 
 
 For version 1.1, there are a few changes:
 
-- Rotated all three BNC connectors. Intent is to replace with plastic connectors since these were really hard to get a good solder joint. 
+- Rotated all three BNC connectors. My intent is to replace with plastic connectors since these were really hard to get a good solder joint. 
 - Rotated the audio jack orientation.
 - Added another power input barrel jack for 12/18V for shielding compare test. 
 - Added SMA connector option for input antenna for compare test.
 
 #### Status
 
-Waiting on new boards, should be here the week after Christmas. v1.1 has a couple of additions to the BOM (a second power jack, different BNC connectors) but they're minor and are just for testing.
+I'm waiting on new boards, should be here the week after Christmas. v1.1 has a couple of additions to the BOM (a second power jack, different BNC connectors) but they're minor and are just for testing.
 
 #### Bill of Materials 
 
