@@ -9,20 +9,36 @@ He gave me permission to work from his schematic to design a new layout and make
 
 <a href="http://www.vlf.it/romero2/E202_V1.1.png">Here's the original E202 full-size schematic</a>.
 
-#### Status
+#### Images
 
-Version 1.0 had some issues, but I was able to 
+![](vlf_overview.png)
 
-For version 1.1, there are a few changes:
+![](vlf_closeup.png)
 
-- Rotated all three BNC connectors. Intent is to replace with plastic connectors since these were really hard to get a good solder joint. 
-- Rotated the audio jack orientation.
-- Added another power input barrel jack for 12/18V for shielding compare test. 
-- Added SMA connector option for input antenna for compare test.
+![](vlf_topview.png)
 
-#### Status
+<a href="https://raw.githubusercontent.com/wicker/e202var-natural-radio-receiver/master/e202var-v1-schematic.png">Here's the E202VAR full-sized schematic</a> and <a href="https://raw.githubusercontent.com/wicker/e202var-natural-radio-receiver/master/e202var-v1-boardlayout.png">layout screenshot from Eagle</a>.
 
-Waiting on new boards, should be here the week after Christmas. v1.1 has a couple of additions to the BOM (a second power jack, different BNC connectors) but they're minor and are just for testing.
+These are the OSH Park Board Top and Board Bottom previews:
+
+<img src="https://github.com/wicker/e202var-natural-radio-receiver/blob/master/e202var-v1-oshpark-preview.png?raw=true">
+
+#### Current Project Status
+
+**Status** Testing complete. Revisions made, on to version 1.1. 
+
+- [x] Get permission and verify that the CERN license is OK.
+- [x] Initially verify all the components and build the BOM.
+- [x] Create the schematic. 
+- [X] Double check the BOM against schematic and available parts.
+- [X] Create an Eagle library with all symbols + footprints.
+- [X] Release the BOM and library.
+- [X] Figure out what to do about the mechanical assembly + case.
+- [X] Create the board layout to fit the proposed case.
+- [X] Order parts.
+- [X] Order boards. Parts and boards should arrive by Friday Oct 30 2015.
+- [X] Assemble the boards.
+- [X] Test!
 
 #### Bill of Materials 
 
