@@ -9,79 +9,64 @@ He gave me permission to work from his schematic to design a new layout and make
 
 <a href="http://www.vlf.it/romero2/E202_V1.1.png">Here's the original E202 full-size schematic</a>.
 
-### Version 1.0
+![](preview.png)
 
-Version 1.0 had some issues, but I was able to solder all the components, place the board in the metal box, attach with clips to ground the box, apply a 9V battery for power, turn on the blue LED, and verify the basics of the operation. 
+![](assembly.png)
+
+### Version 1.2
+
+I created versions 1.0 and 1.1 in Eagle, but have converted to KiCad in v1.2. I ordered boards from OSH Park and should have them built up by next Friday to verify the board. 
+
+### Version 1.1
+
+For version 1.1, I was able to solder all the components, place the board in the metal box, apply a 9V battery for power, turn on the blue LED, and verify the basics of the operation. 
 
 The volume knob, filter and power switches, and headphone jack all work correctly. I could hear the received sound in my headphones and it changed pitch and volume as I adjusted ground connections, turned the volume knob, and moved my hand around in the air over the box.
 
-![](v1.0/vlf_overview.png)
-![](v1.0/vlf_topview.png)
-![](v1.0/vlf_closeup.png)
+![](assembled-covered.png)
+![](assembled-topview.png)
+![](assembled-sideview.png)
 
-### Version 1.1 
+#### v1.2 Bill of Materials 
 
-For version 1.1, there are a few changes:
+Total cost of parts is about $25 if you order minimums. It's about $100 if you go to the next price break for most at qty=10, which is what I did since I'm prototyping, and what I recommend if you want to build two or more units. 
 
-- Rotated all three BNC connectors. My intent is to replace with plastic connectors since these were really hard to get a good solder joint. 
-- Rotated the audio jack orientation.
-- Added another power input barrel jack for 12/18V for shielding compare test. 
-- Added SMA connector option for input antenna for compare test.
+Digikey cart: <a href="http://www.digikey.com/short/355mvd">all the parts for one board</a>
 
-#### Status
+<!--- bom start --->
+|Ref|Qty|Description|Digikey PN|
+|---|---|-----------|------|
+|C1|1|CAP CER 0.033UF 50V C0G RADIAL|445-8490-ND|
+|C10|1|CAP CER 10000PF 50V C0G RADIAL|445-8384-ND|
+|C16 C7|2|CAP CER 4700PF 50V C0G RADIAL|445-8585-ND|
+|C2 C11|2|CAP CER 0.1UF 50V C0G RADIAL|445-8532-ND|
+|C3|1|CAP CER 8.2PF 50V NP0 RADIAL|399-8923-ND|
+|C5 C15 C8|3|CAP CER 150PF 50V NP0 RADIAL|BC1015CT-ND|
+|C6 C12 C4|3|CAP CER 10UF 16V X5R RADIAL|445-8290-ND|
+|C9 C13|2|CAP CER 100UF 6.3V X5R RADIAL|445-8441-ND|
+|D1 D2|2|DIODE GEN PURP 50V 1A DO41|1N4001-TPMSCT-ND|
+|D3|1|LED BLUE CLEAR 5MM ROUND T/H|C503B-BCS-CV0Z0461-ND|
+|J1 J4|2|CONN PWR JACK 2.5X5.5MM HIGH CUR|PJ-202BH|
+|J2 J5|2|CONN TERM SCREW GREEN 2.54MM 2POS TH|ED10561-ND|
+|J3|1|CONN JACK STEREO R/A 3PIN 3.5MM|CP1-3523N-ND|
+|L1|1|FIXED IND 3.3UH 575MA 300 MOHM|78F3R3J-RC-ND|
+|LAMP1|1|LAMP NEON 6.2MM WIRE TERMINAL|A9A-ND|
+|Q1 Q2|2|TRANS NPN 45V 0.1A TO-92|BC547BTACT-ND|
+|R10|1|POT 10K OHM 1/5W PLASTIC LINEAR|987-1301-ND|
+|R11|1|RES 4.7K OHM 1/4W 5% CF MINI|S4.7KQCT-ND|
+|R12|1|RES 2.2K OHM 1/4W 5% CARBON FILM|CF14JT2K20CT-ND|
+|R13|1|RES 1K OHM 1/4W 5% CF MINI|S1KQCT-ND|
+|R4|1|RES 3.3K OHM 1/4W 5% CARBON FILM|CF14JT3K30CT-ND|
+|R5 R1|2|RES 10M OHM 1/4W 5% CARBON FILM|CF14JT1M00CT-ND|
+|R6 R2 R3|3|RES 100K OHM 1/4W 5% CARBON FILM|CF14JT100KCT-ND|
+|R7|1|RES 10 OHM 1/4W 5% CARBON FILM|CF14JT10R0CT-ND|
+|R8|1|RES 10K OHM 1/4W 5% CF MINI|S10KQCT-ND|
+|R9 R17|2|RES 33 OHM 1/4W 5% CARBON FILM|CF14JT33R0CT-ND|
+|SMA1|1|CONN SMA JACK R/A 50 OHM PCB|ARFX1232-ND|
+|U1|1|IC REG LDO 9V 1A MC7809 TO220AB|MC7809CTGOS-ND|
+|U2|1|IC VREF GND REF ADJ TO92|296-6549-5-ND|
+|U3|1|IC AUDIO PWR AMP LOW VOLT 8-DIP|NJM386D-ND|
+|U4|1|IC OPAMP JFET 3MHZ DIP8|296-7203-5-ND|
 
-I'm waiting on new boards, should be here the week after Christmas. v1.1 has a couple of additions to the BOM (a second power jack, different BNC connectors) but they're minor and are just for testing.
 
-#### Bill of Materials 
-
-Total cost of parts is about $25 if you order minimums. It's about $100 if you go to the next price break for most at qty=10, which is what I did since I'm prototyping. 
-
-|Refdes|Qty|Digikey Part Number|Name|Unit Cost|
-|------|---|-------------------|----|---------|
-|BNC1-3|3|WM5524-ND|CONN BNC JACK R/A 50 OHM PCB TH|$1.48|
-|C3|1|399-8923-ND|CAP CER 8.2PF 50V NP0 RADIAL|$0.51|
-|C5,C8,C15|3|BC1015CT-ND|CAP CER 150PF 50V NP0 RADIAL|$0.25|
-|C7,C16|2|445-8585-ND|CAP CER 4700PF 50V C0G RADIAL|$0.32|
-|C10|1|445-8384-ND|CAP CER 10000PF 50V C0G RADIAL|$0.36|
-|C1|1|445-8490-ND|CAP CER 0.033UF 50V C0G RADIAL|$0.48|
-|C2|1|445-8532-ND|CAP CER 0.1UF 50V C0G RADIAL|$0.79|
-|C4,C6,C12|3|445-8351-ND|CAP CER 10UF 25V X7R RADIAL|$0.63|
-|C9,C11,C13|3|445-8441-ND|CAP CER 100UF 6.3V X5R RADIAL|$0.95|
-|D1,D2|2|1N4001-TPMSCT-ND|DIODE GEN PURP 50V 1A DO41|$0.10|
-|D3|1|C503B-BCS-CV0Z0461-ND|LED BLUE CLEAR 3.2V 5MM ROUND T/H|$0.21|
-|J1(A)|0|HOLES|Solder holes for 9V battery connector|$0|
-|J1(A)|1|1528-1117-ND|BATTERY CLIP 9V 5.5MM/2.1MM PLUG|$3.00|
-|J1(A)|1|None|Standard 9V Battery|Varies|
-|J1(B)|1|CP-202BH-ND|CONN PWR JACK 2.5X5.5MM HIGH CUR|$1.16|
-|J1(B)|1|1528-1117-ND|BATTERY CLIP 9V 5.5MM/2.1MM PLUG|$3.00|
-|J1(B)|1|None|Standard 9V Battery|Varies|
-|J1(C)|1|CP-202BH-ND|CONN PWR JACK 2.5X5.5MM HIGH CUR|$1.16|
-|J1(C)|1|1528-1116-ND|BATT HOLDER 9V SWITCH 5.5MM PLUG|$3.95|
-|J1(C)|1|None|Standard 9V Battery|Varies|
-|J2(A)|0|None|0.1" pitch holes to accommodate soldering 24AWG wires|-|
-|J2(B)|1|RA11131100-ND|SWITCH ROCKER SPST 10A 125V|$0.52|
-|J2(B),P10(B),JUMP1(B)|1|Varies|24AWG Wire|Varies|
-|J3|1|CP1-3523N-ND|CONN JACK STEREO R/A 3PIN 3.5MM|$0.97|
-|JUMP1(A)|1|3M9580-ND|SHUNT JUMPER .1" BLACK GOLD|$0.10|
-|JUMP1(B)|1|RA11131100-ND|SWITCH ROCKER SPST 10A 125V|$0.52|
-|LAMP(A)|1|A9A-ND|LED NEON WIRE TERMINAL|$0.63|
-|LAMP(B)|1|RS Components|4 mm Clear Neon Indicator Lamp, Wire Terminal, 100/120/220/250 V 0.25 mA|-|$0.72|
-|L1|1|78F3R3J-RC-ND|FIXED IND 3.3UH 575MA 300 MOHM|$0.22|
-|P10(A)|0|None|0.1" pitch holes to accommodate soldering 24AWG wires|-|
-|P10(B)|1|987-1301-ND|POT 10K OHM 1/5W PLASTIC LINEAR|$0.84|
-|P10(B)|1|Adafruit 2048|Potentiometer Knob - Soft Touch T18 - Blue|$.50|
-|Q1,Q2|2|BC547BTACT-ND|TRANS NPN 45V 0.1A TO-92|$0.20|
-|R(KIT)|1|RS125-ND|Resistor Kit|$14.95|
-|R7|1|CF14JT10R0CT-ND|RES 10 OHM 1/4W 5% CARBON FILM|$0.10|
-|R9,R17|2|CF14JT33R0CT-ND|RES 33 OHM 1/4W 5% CARBON FILM|$0.10|
-|R13|1|CF14JT1K00CT-ND|RES 1K OHM 1/4W 5% CARBON FILM|$0.10|
-|R12|1|CF14JT2K20CT-ND|RES 2.2K OHM 1/4W 5% CARBON FILM|$0.10|
-|R4|1|CF14JT3K30CT-ND|RES 3.3K OHM 1/4W 5% CARBON FILM|$0.10|
-|R11|1|CF14JT4K70CT-ND|RES 4.7K OHM 1/4W 5% CARBON FILM|$0.10|
-|R8|1|CF14JT10K0CT-ND|RES 10K OHM 1/4W 5% CARBON FILM|$0.10|
-|R2,R3,R6(DNP)|2(1)|CF14JT100KCT-ND|RES 100K OHM 1/4W 5% CARBON FILM|$0.10|
-|R1,R5|2|CF14JT1M00CT-ND|RES 1M OHM 1/4W 5% CARBON FILM|$0.10|
-|U1|1|MC7809CTGOS-ND|IC REG LDO 9V 1A TO220AB|$0.45|
-|U2|1|296-6548-5-ND|IC VREF GND REF ADJ 8DIP|$1.93|
-|U3|1|NJM386D-ND|IC AUDIO PWR AMP LOW VOLT 8-DIP|$0.91|
-|U4|1|296-7203-5-ND|IC OPAMP JFET 3MHZ TL081C 8DIP|$0.52|
+<!--- bom end --->
