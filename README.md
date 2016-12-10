@@ -23,7 +23,7 @@ For version 1.1, I was able to solder all the components, place the board in the
 
 The volume knob, filter and power switches, and headphone jack all work correctly. I could hear the received sound in my headphones and it changed pitch and volume as I adjusted ground connections, turned the volume knob, and moved my hand around in the air over the box.
 
-![](assembled-covered.png)
+![](assembled-cover.png)
 ![](assembled-topview.png)
 ![](assembled-sideview.png)
 
