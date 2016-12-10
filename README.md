@@ -9,13 +9,9 @@ He gave me permission to work from his schematic to design a new layout and make
 
 <a href="http://www.vlf.it/romero2/E202_V1.1.png">Here's the original E202 full-size schematic</a>.
 
-## E202VAR v1.2
+## E202VAR
 
 Designed by Jenner Hanni at Wickerbox Electronics
-
-### Version 1.2
-
-I created versions 1.0 and 1.1 in Eagle, but have converted to KiCad in v1.2. I ordered boards from OSH Park and should have them built up by next Friday to verify the board. 
 
 ### Version 1.1
 
@@ -27,7 +23,11 @@ The volume knob, filter and power switches, and headphone jack all work correctl
 ![](assembled-topview.png)
 ![](assembled-sideview.png)
 
-#### v1.2 Bill of Materials 
+### Version 1.2
+
+I created versions 1.0 and 1.1 in Eagle, but have converted to KiCad in v1.2. I ordered boards from OSH Park and should have them built up by next Friday, December 16, to verify the board. 
+
+### v1.2 Bill of Materials 
 
 Total cost of parts is about $25 if you order minimums. It's about $100 if you go to the next price break for most at qty=10, which is what I did since I'm prototyping, and what I recommend if you want to build two or more units. 
 
@@ -69,7 +69,11 @@ Digikey cart: <a href="http://www.digikey.com/short/355mvd">all the parts for on
 |U4|1|IC OPAMP JFET 3MHZ DIP8|296-7203-5-ND|
 <!--- bom end --->
 
+### v1.2 Gerber Preview
+
 ![Gerber Preview](preview.png)
+
+### v1.2 Assembly Diagram
 
 ![Assembly Diagram](assembly.png)
 
