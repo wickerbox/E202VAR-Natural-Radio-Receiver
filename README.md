@@ -9,9 +9,9 @@ He gave me permission to work from his schematic to design a new layout and make
 
 <a href="http://www.vlf.it/romero2/E202_V1.1.png">Here's the original E202 full-size schematic</a>.
 
-![](preview.png)
+## E202VAR v1.2
 
-![](assembly.png)
+Designed by Jenner Hanni at Wickerbox Electronics
 
 ### Version 1.2
 
@@ -67,6 +67,10 @@ Digikey cart: <a href="http://www.digikey.com/short/355mvd">all the parts for on
 |U2|1|IC VREF GND REF ADJ TO92|296-6549-5-ND|
 |U3|1|IC AUDIO PWR AMP LOW VOLT 8-DIP|NJM386D-ND|
 |U4|1|IC OPAMP JFET 3MHZ DIP8|296-7203-5-ND|
-
-
 <!--- bom end --->
+
+![Gerber Preview](preview.png)
+
+![Assembly Diagram](assembly.png)
+
+
