@@ -1,6 +1,6 @@
 # E202VAR Natural (VLF) Radio Receiver
 
-Version: 1.2
+Version: v1.2
 
 Date: 2016-12-06
 
