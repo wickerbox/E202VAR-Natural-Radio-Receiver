@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source /home/wicker/proj/E202VAR-Natural-Radio-Receiver/e202var-vlf-radio-receiver/e202var-vlf-radio-receiver.sch)
-    (date "Thu 08 Dec 2016 06:44:55 PM PST")
+    (date "Fri 09 Dec 2016 03:47:09 PM PST")
     (tool "Eeschema 4.0.4+e1-6308~48~ubuntu16.04.1-stable")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
@@ -108,7 +108,7 @@
       (tstamp 58491B11))
     (comp (ref L1)
       (value 3.3UH)
-      (footprint Wickerlib:IND-78F-AXIAL)
+      (footprint Wickerlib:RES-CARBONFILM-7MM)
       (datasheet http://www.bourns.com/docs/Product-Datasheets/78f_series.pdf)
       (fields
         (field (name Description) "FIXED IND 3.3UH 575MA 300 MOHM")
@@ -904,7 +904,7 @@
       (fields
         (field (name Reference) L)
         (field (name Value) FIXED-IND-3.3UH-575MA-300-MOHM)
-        (field (name Footprint) Wickerlib:IND-78F-AXIAL)
+        (field (name Footprint) Wickerlib:RES-CARBONFILM-7MM)
         (field (name Datasheet) http://www.bourns.com/docs/Product-Datasheets/78f_series.pdf)
         (field (name Description) "FIXED IND 3.3UH 575MA 300 MOHM")
         (field (name MF_Name) Bourns)

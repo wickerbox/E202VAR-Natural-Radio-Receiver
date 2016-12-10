@@ -1,5 +1,5 @@
 Drill report for e202var-vlf-radio-receiver.kicad_pcb
-Created on Fri Dec  9 15:38:50 2016
+Created on Fri Dec  9 16:05:22 2016
 
 Copper Layer Stackup:
     =============================================================
@@ -14,20 +14,23 @@ Drill file 'e202var-vlf-radio-receiver.drl' contains
     T2  0.80mm  0.031"  (23 holes)
     T3  0.80mm  0.032"  (7 holes)
     T4  0.90mm  0.035"  (16 holes)
-    T5  1.00mm  0.039"  (39 holes)
+    T5  1.00mm  0.039"  (41 holes)
     T6  1.02mm  0.040"  (6 holes)
     T7  1.20mm  0.047"  (1 hole)
     T8  1.27mm  0.050"  (2 holes)
-    T9  1.52mm  0.060"  (3 holes)
-    T10  1.70mm  0.067"  (4 holes)
-    T11  2.20mm  0.087"  (6 holes)
-    T12  3.00mm  0.118"  (6 holes)
+    T9  1.30mm  0.051"  (5 holes)
+    T10  1.52mm  0.060"  (3 holes)
+    T11  1.70mm  0.067"  (4 holes)
+    T12  2.20mm  0.087"  (6 holes)
+    T13  3.00mm  0.118"  (6 holes)
+    T14  3.20mm  0.126"  (3 holes)
 
-    Total plated holes count 122
+    Total plated holes count 132
 
 
 Not plated through holes are merged with plated holes
     unplated through holes:
     =============================================================
+    T15  1.30mm  0.051"  (5 holes)
 
-    Total unplated holes count 0
+    Total unplated holes count 5
