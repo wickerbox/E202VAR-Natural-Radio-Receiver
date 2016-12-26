@@ -1,13 +1,3 @@
----
-title: E202VAR Natural Radio Receiver
-version: 1.2
-author: Jenner Hanni
-company: Wickerbox Electronics
-email: jenner@wickerbox.net
-website: http://wickerbox.net/
-license: CERN Open Hardware License v1.2
----
-
 ## Introduction
 
 This project is based on the Explorer E202, with permission. 

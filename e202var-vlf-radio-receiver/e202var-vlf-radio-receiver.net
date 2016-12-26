@@ -7,8 +7,8 @@
       (title_block
         (title "E202VAR Natural (VLF) Radio Receiver")
         (company "Released under the CERN Open Hardware License v1.2")
-        (rev v1.2)
-        (date 2016-12-06)
+        (rev v1.3)
+        (date 2016-12-26)
         (source e202var-vlf-radio-receiver.sch)
         (comment (number 1) (value "jenner@wickerbox.net - http://wickerbox.net"))
         (comment (number 2) (value "Designed by Jenner at Wickerbox Electronics"))

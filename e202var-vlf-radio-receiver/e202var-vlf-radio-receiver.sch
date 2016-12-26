@@ -1,13 +1,14 @@
 EESchema Schematic File Version 2
 LIBS:wickerlib
+LIBS:e202var-vlf-radio-receiver-cache
 EELAYER 25 0
 EELAYER END
 $Descr USLetter 11000 8500
 encoding utf-8
 Sheet 1 1
 Title "E202VAR Natural (VLF) Radio Receiver"
-Date "2016-12-06"
-Rev "v1.2"
+Date "2016-12-26"
+Rev "v1.3"
 Comp "Released under the CERN Open Hardware License v1.2"
 Comment1 "jenner@wickerbox.net - http://wickerbox.net"
 Comment2 "Designed by Jenner at Wickerbox Electronics"
