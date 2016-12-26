@@ -9,7 +9,7 @@
     "gerbers_dir":"gerbers",
     "lib_dir":"/home/wicker/wickerlib/libraries",
     "license":"CERN Open Hardware License v1.2",
-    "projname":"e202var-vlf-receiver",
+    "projname":"e202var-vlf-radio-receiver",
     "template_dir":"/home/wicker/wickerlib/templates",
     "template_kicad":"wickerbox-2layer",
     "template_latex":"wickerbox.tex",

@@ -40,6 +40,7 @@ Digikey cart: <a href="http://www.digikey.com/short/355mvd">all the parts for on
 <!--- bom start --->
 |Ref|Qty|Description|Digikey PN|
 |---|---|-----------|------|
+|BNC1 BNC2 BNC3|3|CONN BNC JACK R/A 50 OHM PCB|A97555-ND|
 |C1|1|CAP CER 0.033UF 50V C0G RADIAL|445-8490-ND|
 |C10|1|CAP CER 10000PF 50V C0G RADIAL|445-8384-ND|
 |C16 C7|2|CAP CER 4700PF 50V C0G RADIAL|445-8585-ND|
@@ -71,7 +72,6 @@ Digikey cart: <a href="http://www.digikey.com/short/355mvd">all the parts for on
 |U2|1|IC VREF GND REF ADJ TO92|296-6549-5-ND|
 |U3|1|IC AUDIO PWR AMP LOW VOLT 8-DIP|NJM386D-ND|
 |U4|1|IC OPAMP JFET 3MHZ DIP8|296-7203-5-ND|
-
 
 <!--- bom end --->
 

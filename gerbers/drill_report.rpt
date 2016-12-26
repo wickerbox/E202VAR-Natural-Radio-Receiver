@@ -1,0 +1,35 @@
+Drill report for e202var-vlf-radio-receiver.kicad_pcb
+Created on Mon Dec 26 15:21:58 2016
+
+Copper Layer Stackup:
+    =============================================================
+    L1 :  F.Cu                      front
+    L2 :  B.Cu                      back
+
+
+Drill file 'e202var-vlf-radio-receiver.drl' contains
+    plated through holes:
+    =============================================================
+    T1  0.33mm  0.013"  (8 holes)
+    T2  0.80mm  0.031"  (25 holes)
+    T3  1.00mm  0.039"  (70 holes)
+    T4  1.00mm  0.039"  (43 holes)
+    T5  1.02mm  0.040"  (6 holes)
+    T6  1.27mm  0.050"  (2 holes)
+    T7  1.30mm  0.051"  (5 holes)
+    T8  1.50mm  0.059"  (1 hole)
+    T9  1.52mm  0.060"  (3 holes)
+    T10  1.70mm  0.067"  (4 holes)
+    T11  2.20mm  0.087"  (6 holes)
+    T12  3.00mm  0.118"  (6 holes)
+    T13  3.20mm  0.126"  (3 holes)
+
+    Total plated holes count 182
+
+
+Not plated through holes are merged with plated holes
+    unplated through holes:
+    =============================================================
+    T14  1.30mm  0.051"  (5 holes)
+
+    Total unplated holes count 5
