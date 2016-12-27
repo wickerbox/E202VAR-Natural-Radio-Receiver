@@ -35,6 +35,8 @@ I ordered v1.3 boards from OSH Park and should have them in hand by Tuesday, Jan
 
 Total cost of parts is about $25 if you order minimums. It's about $100 if you go to the next price break for most at qty=10, which is what I did since I'm prototyping, and what I recommend if you want to build two or more units. 
 
+OSH Park: <a href="https://oshpark.com/shared_projects/FRxD0h6g">$35.35 for a set of three bare boards</a>
+
 Digikey cart: <a href="http://www.digikey.com/short/3rcdb9">http://www.digikey.com/short/3rcdb9</a>
 
 <!--- bom start --->
