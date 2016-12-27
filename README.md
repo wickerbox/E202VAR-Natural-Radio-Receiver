@@ -19,21 +19,23 @@ The volume knob, filter and power switches, and headphone jack all work correctl
 \ 
 \ 
 
-![](assembled-cover.png){ width=48% }\  ![](assembled-topview.png){ width=48% } 
+![](assembled-cover.png)\  ![](assembled-topview.png)
 
-![](assembled-sideview.png){ width=97% }
+![](assembled-sideview.png)
 
 \pagebreak
 
-## Version 1.2
+## Version 1.3
 
-I created versions 1.0 and 1.1 in Eagle, but have converted to KiCad in v1.2. I ordered boards from OSH Park and should have them built up by next Friday, December 16, to verify the board. 
+I created versions 1.0 and 1.1 in Eagle. I conveted v1.2 to KiCad but encountered some issues. 
+
+I ordered v1.3 boards from OSH Park and should have them in hand by Tuesday, January 3.
 
 ### Bill of Materials 
 
 Total cost of parts is about $25 if you order minimums. It's about $100 if you go to the next price break for most at qty=10, which is what I did since I'm prototyping, and what I recommend if you want to build two or more units. 
 
-Digikey cart: <a href="http://www.digikey.com/short/355mvd">all the parts for one board</a>
+Digikey cart: <a href="http://www.digikey.com/short/355mvd">http://www.digikey.com/short/355mvd</a>
 
 \ 
 
@@ -73,7 +75,10 @@ Digikey cart: <a href="http://www.digikey.com/short/355mvd">all the parts for on
 |U3|1|IC AUDIO PWR AMP LOW VOLT 8-DIP|NJM386D-ND|
 |U4|1|IC OPAMP JFET 3MHZ DIP8|296-7203-5-ND|
 
+
 <!--- bom end --->
+
+\pagebreak
 
 ### Gerber Preview
 

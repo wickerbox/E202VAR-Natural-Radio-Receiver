@@ -840,7 +840,7 @@
     (descr "Resistor, Axial,  RM 7.62mm, 1/3W,")
     (tags "Resistor Axial RM 7.62mm 1/3W R3")
     (path /584B32FB)
-    (fp_text reference R5 (at 4.47626 0.19812) (layer F.Fab)
+    (fp_text reference R5 (at 3.8 0) (layer F.Fab)
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value 10M (at 3.81 3.81) (layer F.Fab) hide
@@ -1127,7 +1127,7 @@
     (descr "Resistor, Axial,  RM 7.62mm, 1/3W,")
     (tags "Resistor Axial RM 7.62mm 1/3W R3")
     (path /58491E31)
-    (fp_text reference L1 (at 4.445 -0.0635 180) (layer F.Fab)
+    (fp_text reference L1 (at 3.8 0 180) (layer F.Fab)
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value 3.3UH (at 3.81 3.81 180) (layer F.Fab) hide
