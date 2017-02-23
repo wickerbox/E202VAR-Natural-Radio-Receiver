@@ -3,7 +3,7 @@
     "bom_dir":"bom",
     "company":"Wickerbox Electronics",
     "date_create":"16 Oct 2015",
-    "date_update":"26 Dec 2016",
+    "date_update":"23 Feb 2017",
     "description":"Open soruce variant of Romero's E202 VLF Receiver",
     "email":"jenner@wickerbox.net",
     "gerbers_dir":"gerbers",
@@ -14,6 +14,10 @@
     "template_kicad":"wickerbox-2layer",
     "template_latex":"wickerbox.tex",
     "title":"E202VAR Natural Radio Receiver",
-    "version":"1.3",
-    "website":"http://wickerbox.net"
+    "version":"1.4",
+    "website":"http://wickerbox.net",
+    "width_assembly_png":"80",
+    "width_other_png":"50",
+    "width_preview_png":"80",
+    "width_schematic_png":"60"
 }

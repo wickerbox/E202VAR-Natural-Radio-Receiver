@@ -25,30 +25,31 @@ The volume knob, filter and power switches, and headphone jack all work correctl
 
 \pagebreak
 
-## Version 1.3
+## Version 1.4
 
-I created versions 1.0 and 1.1 in Eagle. I conveted v1.2 to KiCad but encountered some issues. 
-
-I ordered v1.3 boards from OSH Park and should have them in hand by Tuesday, January 3.
+I ordered v1.4 boards from OSH Park and should have them in hand by March 10th.
 
 ### Bill of Materials 
 
 Total cost of parts is about $25 if you order minimums. It's about $100 if you go to the next price break for most at qty=10, which is what I did since I'm prototyping, and what I recommend if you want to build two or more units. 
 
-OSH Park: <a href="https://oshpark.com/shared_projects/FRxD0h6g">$35.35 for a set of three bare boards</a>
+OSH Park: $35.35 for a set of three bare boards
 
-Digikey cart: <a href="http://www.digikey.com/short/3rcdb9">http://www.digikey.com/short/3rcdb9</a>
+Digikey cart: To Be Linked Soon
 
 <!--- bom start --->
+### Bill of Materials
+
 |Ref|Qty|Description|Digikey PN|
 |---|---|-----------|------|
 |BNC1 BNC2 BNC3|3|CONN BNC JACK R/A 50 OHM PCB|A97555-ND|
 |C1|1|CAP CER 0.033UF 50V C0G RADIAL|445-8490-ND|
 |C10|1|CAP CER 10000PF 50V C0G RADIAL|445-8384-ND|
+|C15 C14|2|CAP CER 0.022UF 50V X7R RADIAL|399-14089-2-ND|
 |C16 C7|2|CAP CER 4700PF 50V C0G RADIAL|445-8585-ND|
 |C2 C11|2|CAP CER 0.1UF 50V C0G RADIAL|445-8532-ND|
 |C3|1|CAP CER 8.2PF 50V NP0 RADIAL|399-8923-ND|
-|C5 C15 C8|3|CAP CER 150PF 50V NP0 RADIAL|BC1015CT-ND|
+|C5|1|CAP CER 150PF 50V NP0 RADIAL|BC1015CT-ND|
 |C6 C12 C4|3|CAP CER 10UF 16V X5R RADIAL|445-8290-ND|
 |C9 C13|2|CAP CER 100UF 6.3V X5R RADIAL|445-8441-ND|
 |D1 D2|2|DIODE GEN PURP 50V 1A DO41|1N4001-TPMSCT-ND|
@@ -64,12 +65,11 @@ Digikey cart: <a href="http://www.digikey.com/short/3rcdb9">http://www.digikey.c
 |R12|1|RES 2.2K OHM 1/4W 5% CARBON FILM|CF14JT2K20CT-ND|
 |R13|1|RES 1K OHM 1/4W 5% CF MINI|S1KQCT-ND|
 |R4|1|RES 3.3K OHM 1/4W 5% CARBON FILM|CF14JT3K30CT-ND|
-|R5 R1|2|RES 10M OHM 1/4W 5% CARBON FILM|CF14JT1M00CT-ND|
+|R5 R1|2|RES 10M OHM 1/4W 5% CARBON FILM|CF14JT10M0CT-ND|
 |R6 R2 R3|3|RES 100K OHM 1/4W 5% CARBON FILM|CF14JT100KCT-ND|
 |R7|1|RES 10 OHM 1/4W 5% CARBON FILM|CF14JT10R0CT-ND|
 |R8|1|RES 10K OHM 1/4W 5% CF MINI|S10KQCT-ND|
 |R9 R17|2|RES 33 OHM 1/4W 5% CARBON FILM|CF14JT33R0CT-ND|
-|SMA1|1|CONN SMA JACK R/A 50 OHM PCB|ARFX1232-ND|
 |U1|1|IC REG LDO 9V 1A MC7809 TO220AB|MC7809CTGOS-ND|
 |U2|1|IC VREF GND REF ADJ TO92|296-6549-5-ND|
 |U3|1|IC AUDIO PWR AMP LOW VOLT 8-DIP|NJM386D-ND|
@@ -78,11 +78,14 @@ Digikey cart: <a href="http://www.digikey.com/short/3rcdb9">http://www.digikey.c
 
 <!--- bom end --->
 
+
 \pagebreak
 
 ### Gerber Preview
 
 ![Gerber Preview](preview.png)
+
+\pagebreak
 
 ### Assembly Diagram
 

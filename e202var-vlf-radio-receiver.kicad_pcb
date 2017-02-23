@@ -14,12 +14,13 @@
 
   (page USLetter)
   (title_block
-    (title "E202VAR Natural (VLF) Radio Receiver")
-    (date 2016-12-26)
-    (rev v1.3)
-    (company "Released under the CERN Open Hardware License v1.2")
-    (comment 1 "jenner@wickerbox.net - http://wickerbox.net")
-    (comment 2 "Designed by Jenner at Wickerbox Electronics")
+    (title "E202VAR Natural Radio Receiver")
+    (date "16 Oct 2015")
+    (rev "v1.4")
+    (company "CERN Open Hardware License v1.2")
+    (comment 1 "jenner@wickerbox.net")
+    (comment 2 "http://wickerbox.net")
+    (comment 3 "Wickerbox Electronics")
   )
 
   (layers
