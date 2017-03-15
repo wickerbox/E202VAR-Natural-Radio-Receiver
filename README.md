@@ -12,11 +12,29 @@ This is the original E202 full-size schematic.
 
 ![Original schematic](schematic.png)
 
-### Assembled Unit
+\pagebreak
 
-![Original schematic](schematic.png)
+## Assembled v1.1 Receiver with Case
 
-### Cost
+A fully assembled v1.1 in a box looked like this:
+
+![Assembled Top View v1.1](assembled-topview.png)
+
+![Assembled Side View v1.1](assembled-sideview.png)
+
+![Assembled Cover v1.1](assembled-cover.png)
+
+\pagebreak
+
+## Assembled v1.4 Receiver Board
+
+The final board for v1.4, which is the release version, looks like this: 
+
+![Assembled Final v1.4](assembled-v1.4-small.png)
+
+\pagebreak
+
+## Cost
 
 Total cost of parts is about $25 if you order minimums. It's about $100 if you go to the next price break for most at qty=10, which is what I did since I'm prototyping, and what I recommend if you want to build two or more units. 
 
@@ -25,7 +43,7 @@ OSH Park: $35.35 for a set of three bare boards [<a href="https://oshpark.com/sh
 Digikey cart: $24.40 for parts for one board [<a href="http://www.digikey.com/short/32fqdm">Shared Cart #32fqdm</a>]
 
 <!--- bom start --->
-### Bill of Materials
+## Bill of Materials
 
 |Ref|Qty|Description|Digikey PN|
 |---|---|-----------|------|
@@ -67,13 +85,13 @@ Digikey cart: $24.40 for parts for one board [<a href="http://www.digikey.com/sh
 
 \pagebreak
 
-### Gerber Preview
+## Gerber Preview
 
 ![Gerber Preview](preview.png)
 
 \pagebreak
 
-### Assembly Diagram
+## Assembly Diagram
 
 ![Assembly Diagram](assembly.png)
 
